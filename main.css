@@ -7,7 +7,7 @@
         }
     
     body{
-    background-color: lightsteelblue;
+    background-color: rgb(213, 199, 169);
     font-family: 'Roslindale', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
@@ -28,23 +28,26 @@ grid-template-areas:
     "a a";
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: rgb(93, 113, 92);
+    height: 200px;
 }
-
+h2{
+    font-variation-settings: "opsz" 10, "wdth" 75, "wght" 600, "slnt" 0;
+}
 /* variable font animation */
 h3{
     font-weight:20; 
