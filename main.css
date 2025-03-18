@@ -90,3 +90,15 @@ h3{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
+.outline {
+    background-color: transparent;
+    color: #544d3b;
+    border: 2px solid #544d3b;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.outline:hover {
+    background-color: #544d3b;
+    color: #fff;
+}
