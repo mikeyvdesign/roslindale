@@ -149,10 +149,13 @@ h5{
     color: #544d3b;
     border: 2px solid #544d3b;
     transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 10px;
     text-align: center;
+    place-content: center;
 }
 
 .outline:hover {
     background-color: #544d3b;
-    color: #fff;
+    color: rgb(213, 199, 169);
 }
