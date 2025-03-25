@@ -36,17 +36,26 @@ body{
     #history {
         grid-area: h;
     }
+
     #variations{
         grid-area: v;
     }
+
     #alphabet {
         grid-area: a;
         line-height: 10px;
     }
+
+    #alphabet p {
+        line-height: 1;
+    }
+
+    #alphabet h2 {
+        margin-bottom: 30px; 
+    }
 }
 
 /* CSS for the footer */
-
 footer{
     background-color: rgb(93, 113, 92);
     padding: 20px;
