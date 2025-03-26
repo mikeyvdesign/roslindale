@@ -53,6 +53,24 @@ body{
         grid-template-rows:auto;
     }
 
+.alphabet-container-one{
+    font-variation-settings: "opsz" 10, "wdth" 100, "wght" 400, "slnt" 0;
+    padding: 20px;
+    background-color: #544d3b;
+    color: rgb(213, 199, 169);
+}
+.alphabet-container-two{
+    font-variation-settings: "opsz" 10, "wdth" 50, "wght" 900, "slnt" 0;
+    padding: 20px;
+}
+.alphabet-container-three{
+    font-variation-settings: "opsz" 10, "wdth" 50, "wght" 400, "slnt" -8;
+    padding: 20px;
+    background-color: #544d3b;
+    color: rgb(213, 199, 169);
+}
+}
+
 .alphabet-header{
     display:block;
 }
@@ -63,7 +81,6 @@ body{
     #alphabet h2 {
         margin-bottom: 30px; 
     }
-}
 
 /* CSS for the footer */
 footer{
@@ -223,7 +240,7 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px; 
+    padding: 30px; 
 }
 
 .outline {
